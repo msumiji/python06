@@ -3,7 +3,7 @@ from elements import create_fire
 from alchemy.potions import strength_potion
 
 
-def lead_to_gold():
+def lead_to_gold() -> str:
     return (
         f"Recipe transmuting Lead to Gold: "
         f"brew '{create_air()}' and "
